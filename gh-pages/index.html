@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>诊断式学习教练 · diagnostic-study-coach</title>
+<style>
+:root{--bg:#07110f;--card:#0e1c1a;--line:#1e3a34;--txt:#e6fbf5;--sub:#9dc4b8;--g:#34d399;--b:#60a5fa;--p:#a78bfa}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:radial-gradient(1100px 560px at 12% -8%,#065f4633,transparent),radial-gradient(900px 480px at 95% 0%,#6d28d933,transparent),var(--bg);color:var(--txt);font-family:'Segoe UI',-apple-system,'PingFang SC','Microsoft YaHei',sans-serif;line-height:1.7;min-height:100vh}
+.wrap{max-width:1000px;margin:0 auto;padding:56px 22px 80px}
+.hero{display:flex;gap:34px;align-items:center;flex-wrap:wrap;margin-bottom:44px}
+.hero img{width:132px;height:132px;filter:drop-shadow(0 12px 30px #0008)}
+.htext h1{font-size:40px;line-height:1.2;background:linear-gradient(90deg,var(--g),var(--b),var(--p));-webkit-background-clip:text;background-clip:text;color:transparent}
+.htext .en{color:var(--sub);font-size:17px;font-weight:400;letter-spacing:1px;margin-top:6px}
+.tag{display:inline-block;margin-top:16px;padding:6px 14px;border:1px solid var(--line);border-radius:999px;color:var(--g);font-size:13px;background:#34d3990d}
+.lead{font-size:19px;color:var(--sub);margin-bottom:38px;max-width:780px}
+.lead b{color:var(--txt)}
+.layers{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:18px;margin-bottom:40px}
+.layer{background:linear-gradient(180deg,var(--card),#0a1513);border:1px solid var(--line);border-radius:16px;padding:24px;transition:.25s}
+.layer:hover{transform:translateY(-3px);box-shadow:0 12px 34px #0007}
+.layer .lab{font-size:12px;letter-spacing:2px;padding:3px 10px;border-radius:999px;display:inline-block;margin-bottom:12px}
+.l1 .lab{background:#34d39922;color:var(--g)}
+.l2 .lab{background:#60a5fa22;color:var(--b)}
+.l3 .lab{background:#a78bfa22;color:var(--p)}
+.layer h3{font-size:18px;margin-bottom:8px;color:#fff}
+.layer p{color:var(--sub);font-size:14px}
+.motto{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--g);border-radius:12px;padding:20px 26px;margin-bottom:22px}
+.motto b{color:var(--g)}
+.motto .sub{color:var(--sub);font-size:14px;margin-top:6px}
+.src{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:44px}
+.src span{padding:8px 16px;border:1px solid var(--line);border-radius:10px;color:var(--sub);font-size:13px;background:#ffffff05}
+.btns{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:48px}
+.btn{padding:12px 24px;border-radius:10px;text-decoration:none;font-weight:600;font-size:15px;transition:.2s}
+.btn.primary{background:linear-gradient(90deg,var(--g),var(--b));color:#06110e}
+.btn.primary:hover{filter:brightness(1.12);transform:translateY(-2px)}
+.btn.ghost{border:1px solid var(--line);color:var(--txt)}
+.btn.ghost:hover{border-color:var(--g);color:var(--g)}
+footer{border-top:1px solid var(--line);padding-top:24px;color:#5f8a7c;font-size:13px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+a{color:var(--g)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="hero">
+    <img src="logo.svg" alt="logo">
+    <div class="htext">
+      <h1>诊断式学习教练</h1>
+      <div class="en">diagnostic-study-coach · 一个导师，没有功能菜单</div>
+      <span class="tag">三套机制融合 · 三层优先级裁决 · 数学 + 跨学科</span>
+    </div>
+  </div>
+
+  <p class="lead">先<b>诊断你卡在哪一层认知</b>，再决定是出题、追问、听你主讲、批改说理、放变式、建学习路径，还是查可信资源。目标是<b>掌握</b>，不是做完。</p>
+
+  <div class="layers">
+    <div class="layer l1"><span class="lab">第一层 · 内核</span><h3>不可让渡</h3><p>十二问链、四层能力闭环、自检闸门、真题为母、不给答案不泄底。决定「不能做什么」。</p></div>
+    <div class="layer l2"><span class="lab">第二层 · 调度</span><h3>统一节奏</h3><p>诊断自适应循环、三张工作台互斥、确认闸门、按需加载。决定「什么时候做」。</p></div>
+    <div class="layer l3"><span class="lab">第三层 · 适配</span><h3>通用表达</h3><p>跨学科迁移、学习状态卡、掌握状态词、可信资源、数学格式。决定「怎么表达」。</p></div>
+  </div>
+
+  <div class="motto">
+    <b>内核决定不能做什么，调度决定什么时候做，适配决定怎么表达。</b>
+    <div class="sub">下层不得覆盖上层 · 链尾「求真」为最终裁判 · 数学场景内核全量生效，跨学科场景底线仍在</div>
+  </div>
+
+  <div class="src">
+    <span>◈ 第一性原理自学导师</span>
+    <span>◈ Universal Diagnostic Tutor</span>
+    <span>◈ 清华 OpenMAIC</span>
+  </div>
+
+  <div class="btns">
+    <a class="btn primary" href="https://github.com/hubeiewuhan-creator/diagnostic-study-coach-skill">查看 GitHub 仓库</a>
+    <a class="btn ghost" href="https://github.com/hubeiewuhan-creator/diagnostic-study-coach-skill#readme">使用文档</a>
+    <a class="btn ghost" href="https://github.com/hubeiewuhan-creator/math-selfstudy-tutor-skill">数学内核独立版 →</a>
+  </div>
+
+  <footer>
+    <span>Markdown-only · DSH 原生 skill · 无隐藏记忆</span>
+    <span>MIT License · © 2026 hubeiewuhan-creator</span>
+  </footer>
+</div>
+</body>
+</html>
