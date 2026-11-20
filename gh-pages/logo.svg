@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="诊断式学习教练 logo">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#064e3b"/>
+      <stop offset="0.55" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#4c1d95"/>
+    </linearGradient>
+    <linearGradient id="s" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#34d399"/>
+      <stop offset="0.5" stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="40" fill="url(#bg)"/>
+  <circle cx="100" cy="100" r="76" fill="none" stroke="url(#s)" stroke-width="3" opacity="0.55"/>
+  <path d="M62 104 l24 24 l52 -58" fill="none" stroke="url(#s)" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="100" y="180" font-family="'Segoe UI',Arial,sans-serif" font-size="15" letter-spacing="3" fill="#a7f3d0" text-anchor="middle">DIAGNOSE · COACH</text>
+</svg>
